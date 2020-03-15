@@ -60,7 +60,7 @@ public class ListaAlunos {
 				int indicePosicaoAnterior = indicePosicaoBase - 1;
 				Aluno alunoPosicaoAnterior = lista[indicePosicaoAnterior];
 				
-				Boolean alunoPosicaoAnteriorVemDepoisDe = alunoPosicaoAnterior == null
+				boolean alunoPosicaoAnteriorVemDepoisDe = alunoPosicaoAnterior == null
 						|| alunoPosicaoAnterior.vemDepoisDe(alunoPosicaoBase);
 				
 				if(alunoPosicaoAnteriorVemDepoisDe) {
